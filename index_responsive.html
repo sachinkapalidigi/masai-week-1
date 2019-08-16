@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <title>Avatar Aang</title>
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Lacquer|Pacifico&display=swap" rel="stylesheet"> 
+
+    <style>
+        #head-cont{
+            display: grid;
+            width: 100%;
+            grid-template-rows: 500px;
+            grid-template-columns: auto 1fr;
+            /* grid-gap: 5px; */
+        }
+
+        #head-cont img{
+            width: 100%;
+            height: 500px;
+        }
+
+        .main-container{
+            display: grid;
+            grid-template-rows: 300px 300px 300px;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-gap: 10px;
+            margin-top: 10px;    
+        }
+        .main-container div{
+            /* border: 1px solid black; */
+            text-align: center;
+            
+        }
+        .main-container img ~ p{
+            color: darkcyan;
+        }
+        .main-container div > img {
+            width: 100%;
+            height: 80%;
+            border-radius: 50%;
+        }
+        .mc-el-2{
+            grid-area: 2 / 1 / 3 / 6;
+            color: #29B6F6;
+           font-family: 'Dancing Script', cursive;
+           font-size: 20px;
+           border: 1px solid black;
+       }
+       .mc-el-3{
+            grid-area: 3 / 1 / 4 / 6;
+            color: aquamarine;
+            font-family: 'Dancing Script', cursive;
+            font-size: 20px;
+       }
+       #footer-container{
+           width: 100%;
+           text-align: center;
+            background: #29B6F6;
+            height: 50px;
+            line-height: 50px;
+            color: blueviolet;
+       }
+       @media(max-width: 600px){
+        #head-cont{
+            /* display: grid; */
+            width: 100%;
+            grid-template-rows: 500px 500px;
+            grid-template-columns: auto;
+            /* grid-gap: 5px; */
+        } 
+        .main-container{
+            display: grid;
+            grid-template-rows: repeat(7,1fr);
+            grid-template-columns: 1fr;
+            grid-gap: 10px;
+            margin-top: 10px;    
+        }
+        .mc-el-2{
+            grid-area: 6 / 1 / 7 / 2;
+            
+       }
+       .mc-el-3{
+            grid-area: 7 / 1 / 8 / 2;
+            
+       }
+       }
+    </style>
+</head>
+<body>
+    <div id="head-cont">       
+        <div>
+            <img src="./av2.jpg" alt="">
+        </div>
+        <div>
+            <img src="./av4.png" alt="">
+        </div>
+    </div>
+    <main>
+        <div class="main-container">
+            <div>
+                    <img src="./av1.jpg" alt="">
+                    <p>Avatar: The Last Airbender</p>
+            </div>
+            <div>
+                    <img src="https://upload.wikimedia.org/wikipedia/en/c/c2/Avatar_reincarnations.png" alt="">
+                    <p>Aang, Roku, Kyoshi, Kuruk</p>
+            </div>
+            <div>
+                    <img src="./av1.jpg" alt="">
+                    <p>Avatar Aang's spirit with Korra</p>
+            </div>
+            <div>
+                    <img src="https://upload.wikimedia.org/wikipedia/en/b/b8/Legend_of_Korra_Aang.png" alt="">
+                    <p>Avatar Aang's spirit with Korra</p>
+            </div>
+            <div>
+                    <img src="https://static0.cbrimages.com/wordpress/wp-content/uploads/2017/02/More-Skilled-Team-Avatar.jpg?q=50&fit=crop&w=738&h=369" alt="">
+                    <p>An elephant at sunset</p>
+            </div>
+
+            <div class="mc-el-2" >
+                    <h1>
+                        SKILLS
+                    </h1>
+                    <p>
+                        With Aang, Katara, Sokka and Toph rounding out the group, "Team Avatar" was a force to be reckoned with, with each knowing their skills and abilities while using them to their fullest extent. Aang, Katara and Toph were the main combatants and heavy hitters of the group, while Sokka was the tactician, often planning the group's many moves and providing them with much-needed direction. Despite being the only non-bender, his value was made clear throughout the series, as his strategies proved to be the difference in taking down the Fire Nation's giant drill and Fire Lord Ozai's airship fleet. The group knew what they were best at and were smart at using each to his or her best advantage.            </p>
+            </div>
+            <div class="mc-el-3">
+                <h1>
+                    SIMPLICITY
+                </h1>
+                <p>
+                    One of the more underrated aspects of "The Last Airbender" was how its simple plot elements were used so well in its storytelling. With a clearly stated central antagonistic force coupled with its established protagonists and overarching goal, it would have been easy to label the show as generic and predictable. It is here that the series shines, though, by making its plot simple; it is able to introduce new elements one step at a time, providing the material with more purpose that, when expanded on later, has a bigger impact.
+    
+                    Such an example is seen in the Season Two premiere "Avatar State," when Iroh subtly redirects Azula's lightning, a move that is a slight foreshadowing to him teaching the technique to Zuko. The reveal that he found it by studying waterbending is a simple yet unique method that ties the world of Avatar together in a unique way not seen in "Legend of Korra." While introducing new extensions of some of the bending forms, the series could have benefitted from making better use of more simplistic materials, from its multiple and complex plotlines, which were often abandoned at the end of the season.            </p>
+            </div>
+        </div>
+    </main>
+                
+        <div id="footer-container">
+                <div>
+                    <h2>Thank You ! Have a Nice Day</h2>
+                </div>
+        </div>
+                
+    
+</body>
+</html>
